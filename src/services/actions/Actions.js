@@ -1,16 +1,15 @@
-import { ADD_TO_CART, REMOVE_TO_CART } from "../Constants";
+import { actionTypes } from "../Constants";
 
 export const addToCart = (data) => {
-    console.log(data)
+    // console.log(data)
     return {
-        type: ADD_TO_CART,
+        type: actionTypes.ADD_TO_CART,
         data
     }
 }
 
-export const removeToCart = (data) => {
+export const removeToCart = () => {
     return {
-        type: REMOVE_TO_CART,
-        data
+        type: actionTypes.REMOVE_TO_CART
     }
 }

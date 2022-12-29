@@ -11,20 +11,24 @@
 }
 .product__wrapper__add-to-cart-btn {
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.6rem;
   border-radius: 7px;
   font-weight: bold;
   margin-left: 10px;
   background: #4a4a4a;
   color: #fff;
   cursor: pointer;
+  text-transform: capitalize;
+}
+.product__wrapper__add-to-cart-btn--clr {
+  background: red;
 }
 .product__wrapper__minicart__link {
   color: #292727;
   text-decoration: none;
   position: absolute;
-  right: 15px;
-  top: 18px;
+  right: 50px;
+  top: 35px;
 }
 .product__wrapper__cart {
   font-size: 1.5em;
@@ -32,14 +36,17 @@
 .product__wrapper__quantity {
   background-color: #00a1e0;
   border-radius: 50%;
-  width: 1.25em;
-  height: 1.25em;
+  width: 1.5em;
+  height: 1.5em;
   line-height: normal;
-  display: inline-block;
   text-align: center;
   font-size: 0.8125em;
+  font-weight: bold;
   position: relative;
-  top: -18px;
-  left: -0.9375em;
+  top: -42px;
+  left: 18px;
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=home.css.map */
